@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -19,6 +21,10 @@ main section {
 }
 body {
     background-color: #FFFFFF;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #072A6C;
@@ -27,6 +33,7 @@ nav a {
     color: white;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #8ECAE6;
@@ -37,6 +44,10 @@ nav a:hover {
     background-color: #8ECAE6;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #072A6C;
@@ -47,10 +58,14 @@ nav a:hover {
 .msg {
     background-color: #072A6C;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
    background-color: #072A6C;
    color: white;
+   padding: 25px 50px;
+   margin-top: 200px;
 }
 footer a {
     color: white;
@@ -63,6 +78,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
@@ -72,4 +88,35 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    color: #072A6C;
+}
+.msg h2 {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #072A6C;
+}
+main section img {
+    box-sizing: border-box;
 }
