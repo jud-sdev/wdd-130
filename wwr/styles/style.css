@@ -187,6 +187,42 @@ main {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/*Here is the css styles for rivers page*/
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
+  }
+  
+  .rivers-pics {
+    padding: 20px;
+    text-align: center;
+  }
+  .rivers-img {
+    text-align: center;
+  }
+  
+  .rivers-pics h2 {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rivers-img p {
+    font-size: .8em;
+    width: 1024px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.5em;
+  }
+  
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
