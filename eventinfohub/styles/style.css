@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color: #E3EBFA;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a {
+    text-align: center;
+    color: #254756;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #254756;
+    color: white;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+footer {
+    background-color: #E3EBFA;
+    color: #254756;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #254756;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: #254756;
+    color: white;
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+#event-title h1 {
+    font-family: pacifico;
+}
+
+
+
+body {
+    background-color: #FFFFFF;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #event {
+    max-width: 1200px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  #event-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #event-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  #event-msg {
+    text-align: justify;
+  }
+  
+  .botton-box {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .book {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+  }
+  
+  #event-info {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  #event-img-box {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  #event-moment {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  #event-info-box {
+    flex: 2;
+  }
+  
+  #event-info-box p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2em; /* Adjust the font size as needed */
+  }
+  
+  #event-info-box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #event-info-box li {
+    margin-bottom: 8px;
+    margin-bottom: 10px;
+    padding-left: 20px; /* Add some indentation for better readability */
+    position: relative;
+  }
+
+  #event-info-box li::before {
+    content: '\2022'; /* Use a bullet point as a list item marker */
+    color: #3498db; /* Match the bullet color with your design */
+    font-size: 1.2em; /* Adjust the font size as needed */
+    position: absolute;
+    left: -15px; /* Adjust the position for better alignment */
+}
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    main {
+      padding: 10px;
+    }
+  
+    #event {
+      width: 100%;
+    }
+  
+    #event-info {
+      flex-direction: column;
+    }
+  
+    #event-img-box {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
