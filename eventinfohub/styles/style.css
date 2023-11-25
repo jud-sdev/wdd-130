@@ -94,7 +94,30 @@ body {
   
   #event-msg {
     text-align: justify;
+    position: relative;
   }
+
+  #event-msg h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #254756; /* Adjust text color as needed */
+    background-color: rgba(227, 235, 250, 0.8); /* Adjust background color and transparency as needed */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow for a fanciful effect */
+    margin-top: -400px;
+    transition: transform 0.5s ease-in-out;
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+#event-msg h4:hover {
+    transform: translate(-50%, -50%) scale(1.2); /* Adjust the scale value as needed for zoom-in effect */
+}
+
   
   .botton-box {
     text-align: center;
@@ -118,6 +141,7 @@ body {
   #event-img-box {
     flex: 1;
     margin-right: 20px;
+    padding-top: 100px;
   }
   
   #event-moment {
@@ -135,7 +159,9 @@ body {
     margin-bottom: 10px;
     font-weight: bold;
     margin-bottom: 10px;
-    font-size: 1.2em; /* Adjust the font size as needed */
+    font-size: 1em; /* Adjust the font size as needed */
+    line-height: 1.2em;
+    padding-top: 80px;
   }
   
   #event-info-box ul {
