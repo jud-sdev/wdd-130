@@ -322,7 +322,75 @@ span.psw {
 }
 
 
+#about-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#about-box p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#about-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#about-box li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#about-box a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#about-box a:hover {
+  text-decoration: underline;
+}
+
+#about-box div {
+  margin-top: 20px;
+}
+
+#about-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about-box h2 {
+  font-size: .5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#about-box p {
+  font-size: 1.0em;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+#about-info-box {
+  width: 1000px;
+  background-color: #fff;
+  padding-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+  margin: 0 auto;
+  
+  
+}
+
   /* Responsive Design */
+ 
+ 
+ 
   @media screen and (max-width: 600px) {
     main {
       padding: 10px;
